@@ -26,9 +26,26 @@ go mod
 ## Day 2
 Topics covered
 const
-functions 
-package
-if condition
-for loops
+functions introduction a
 
 What does go mod tidy do?
+
+## Day 3
+functions continued
+package imports
+
+## Day 4
+Structs
+## Day 5
+if is used to control the program flow. considered a control structure. 
+
+What is a buffer? computer science.
+
+*VS Code shortcut - ctrl+D - select words
+
+Error handling in Go
+
+make 
+new
+interface
+go routines
