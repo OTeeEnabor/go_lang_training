@@ -47,5 +47,20 @@ Error handling in Go
 
 make 
 new
-interface
+### Interface
+*what is an intergace?*
+
+Go interfaces provide method signatures for similar types of objects. 
+
+*How to create an interface?*
+
+Use type keyword, followed by the interface name and interface keyword. Method signatures can be specified inside curly braces. 
+
+
+type interface_name interface {
+    // method signature
+}
+
+Empty Interfaces
+- Interfaces with no methods. - Go interfaces are implemented implicityly.
 go routines
