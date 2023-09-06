@@ -48,9 +48,13 @@ Error handling in Go
 make 
 new
 ### Interface
-*what is an intergace?*
+*what is an interface?*
 
 Go interfaces provide method signatures for similar types of objects. 
+
+Interface values can be thought of as a tuple of a value and a concrete type: (value, type). An interface value holds a value of a specific underlying concrete type.
+
+A method call on an interface value executes the method of the same name on its underlying type. 
 
 *How to create an interface?*
 
@@ -61,6 +65,26 @@ type interface_name interface {
     // method signature
 }
 
-Empty Interfaces
-- Interfaces with no methods. - Go interfaces are implemented implicityly.
+### Empty Interfaces
+- Interfaces with no methods. 
+- may hold values of any type.(Every type implements at least zero methods.)
+- used by code that handles values of unknown type.
+
+- Go interfaces are implemented implicitly.
+
+### Type assertion 
+This provides access to an interface value's underlying concrete value. 
+*t := i.(T)*
+
 go routines
+
+
+# Week 2
+Frameworks for GoLang
+## Echo
+Installed Go lang Air - which is a live reloading development tool.
+Air is yet another live-reloading command line utility for developing Go applications.
+**PORT** HTTP
+Annonymous functions in golang
+
+They do not have a name and run automatically.
